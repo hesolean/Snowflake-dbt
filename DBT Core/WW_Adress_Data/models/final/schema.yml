@@ -1,0 +1,60 @@
+
+version: 2
+
+models:
+  - name: address_fr
+    description: "crée une table pour un pays donné"
+    columns:
+      - name: ID
+        description: "Identifiant"
+        data_tests:
+          - unique
+          - not_null
+      - name: NUMBER
+        description: "Numéro de maison"
+      - name: STREET
+        description: "Nom de la rue"
+      - name: CITY
+        description: "Ville"
+      - name: POSTCODE
+        description: "Code postal"
+      - name: COUNTRY
+        description: "Pays"
+
+  - name: address_mx
+    description: "crée une table pour un pays donné"
+    columns:
+      - name: ID
+        description: "Identifiant"
+        data_tests:
+          - unique
+          - not_null
+      - name: NUMBER
+        description: "Numéro de maison"
+      - name: STREET
+        description: "Nom de la rue"
+      - name: CITY
+        description: "Ville"
+      - name: POSTCODE
+        description: "Code postal"
+      - name: COUNTRY
+        description: "Pays"
+  
+  - name: adress_us
+    description: "crée une table pour un pays donné"
+    columns:
+      - name: ID
+        description: "Identifiant"
+        data_tests:
+          - unique
+          - not_null
+      - name: NUMBER
+        description: "Numéro de maison"
+      - name: STREET
+        description: "Nom de la rue"
+      - name: CITY
+        description: "Ville"
+      - name: POSTCODE
+        description: "Code postal"
+      - name: COUNTRY
+        description: "Pays"

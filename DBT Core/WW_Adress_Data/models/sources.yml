@@ -1,0 +1,36 @@
+version: 2
+
+sources:
+  - name: WW_Adress_Data
+    description: "Données brutes des adresses dans le monde"
+    database: WORLDWIDE_ADDRESS_DATA
+    schema: ADDRESS
+    tables:
+      - name: OPENADDRESS
+        description: "table des adresses"
+        columns:
+          - name: CITY
+            description: "ville"
+          - name: COUNTRY
+            description: "pays"
+          - name: DISTRICT
+            description: "district"
+          - name: HASH
+            description: "encodage"
+          - name: ID
+            description: "identifiant"
+          - name: LAT
+            description: "latitude"
+          - name: LON
+            description: "longitude"
+          - name: NUMBER
+            description: "numéro de maison"
+          - name: POSTCODE
+            description: "code postal"
+          - name: REGION
+            description: "région"
+          - name: STREET
+            description: "nom de la rue"
+          - name: UNIT
+            description: "unité ?"
+

@@ -1,0 +1,90 @@
+[0m11:10:35.352859 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76a629aaa420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76a62998bec0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76a62895a930>]}
+
+
+============================== 11:10:35.361656 | 0c6e5e67-b50b-4812-88ab-e90882515d28 ==============================
+[0m11:10:35.361656 [info ] [MainThread]: Running with dbt=1.10.13
+[0m11:10:35.362743 [debug] [MainThread]: running dbt with arguments {'log_path': 'logs', 'use_colors': 'True', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'log_cache_events': 'False', 'profiles_dir': '/home/helene/.dbt', 'use_experimental_parser': 'False', 'quiet': 'False', 'empty': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error': 'None', 'indirect_selection': 'eager', 'write_json': 'True', 'partial_parse': 'True', 'introspect': 'True', 'cache_selected_only': 'False', 'printer_width': '80'}
+[0m11:10:57.452432 [debug] [MainThread]: Starter project path: /home/helene/Documents/Snowflake et DBT/Brief/DBT Core/dbt-venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m11:10:57.458766 [info ] [MainThread]: 
+Your new dbt project "WW_Adress_Data" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:10:57.459641 [info ] [MainThread]: Setting up your profile.
+[0m11:16:14.182291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77b47e5ddd60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77b4806e5dc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77b47e810d70>]}
+
+
+============================== 11:16:14.191432 | 6ed13b4f-5162-4dfa-82ae-c6472c42b143 ==============================
+[0m11:16:14.191432 [info ] [MainThread]: Running with dbt=1.10.13
+[0m11:16:14.193989 [debug] [MainThread]: running dbt with arguments {'profiles_dir': '/home/helene/.dbt', 'partial_parse': 'True', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'target_path': 'None', 'quiet': 'False', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'debug': 'False', 'cache_selected_only': 'False', 'empty': 'None', 'warn_error': 'None', 'indirect_selection': 'eager', 'static_parser': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'no_print': 'None', 'use_colors': 'True', 'printer_width': '80', 'log_format': 'default'}
+[0m11:29:48.781257 [info ] [MainThread]: A project called WW_Adress_Data already exists here.
+[0m11:29:48.785146 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 814.70734, "process_in_blocks": "25240", "process_kernel_time": 0.377352, "process_mem_max_rss": "98284", "process_out_blocks": "16", "process_user_time": 2.635507}
+[0m11:29:48.786260 [debug] [MainThread]: Command `dbt init` succeeded at 11:29:48.786079 after 814.71 seconds
+[0m11:29:48.787137 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77b47e0b82f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77b47e5ddc10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x77b47dc3b410>]}
+[0m11:29:48.789158 [debug] [MainThread]: Flushing usage events
+[0m11:29:49.279730 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:36:21.089018 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d1e000a8d70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d1e003231a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d1dff9d0e00>]}
+
+
+============================== 11:36:21.097078 | 0d0fd1c5-f789-42fa-98ff-ade35b744fa5 ==============================
+[0m11:36:21.097078 [info ] [MainThread]: Running with dbt=1.10.13
+[0m11:36:21.098350 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'printer_width': '80', 'log_cache_events': 'False', 'debug': 'False', 'write_json': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'quiet': 'False', 'target_path': 'None', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'warn_error': 'None', 'no_print': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'partial_parse': 'True', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'use_colors': 'True', 'empty': 'None', 'version_check': 'True', 'profiles_dir': '/home/helene/.dbt'}
+[0m11:36:21.131269 [info ] [MainThread]: dbt version: 1.10.13
+[0m11:36:21.132137 [info ] [MainThread]: python version: 3.12.3
+[0m11:36:21.133855 [info ] [MainThread]: python path: /home/helene/Documents/Snowflake et DBT/Brief/DBT Core/dbt-venv/bin/python3
+[0m11:36:21.134566 [info ] [MainThread]: os info: Linux-6.14.0-29-generic-x86_64-with-glibc2.39
+[0m11:36:21.143396 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'SNOWFLAKE_ACCOUNT'
+[0m11:36:21.145333 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.16529758, "process_in_blocks": "38808", "process_kernel_time": 0.425604, "process_mem_max_rss": "98232", "process_out_blocks": "8", "process_user_time": 2.753911}
+[0m11:36:21.146325 [debug] [MainThread]: Command `dbt debug` failed at 11:36:21.146151 after 0.17 seconds
+[0m11:36:21.147103 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d1dff739e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d1dff84f230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d1dff0af3e0>]}
+[0m11:36:21.147948 [debug] [MainThread]: Flushing usage events
+[0m11:36:21.676252 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:37:18.945781 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76c62d9ff4d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76c62fae19d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76c62d9fc470>]}
+
+
+============================== 11:37:18.951817 | a4f55f39-1b6f-4d69-ac6b-2dc0e2d43d95 ==============================
+[0m11:37:18.951817 [info ] [MainThread]: Running with dbt=1.10.13
+[0m11:37:18.952965 [debug] [MainThread]: running dbt with arguments {'empty': 'None', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'profiles_dir': '/home/helene/.dbt', 'target_path': 'None', 'printer_width': '80', 'quiet': 'False', 'indirect_selection': 'eager', 'warn_error': 'None', 'introspect': 'True', 'fail_fast': 'False', 'cache_selected_only': 'False', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'write_json': 'True', 'log_path': 'logs', 'log_cache_events': 'False', 'log_format': 'default', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'use_colors': 'True', 'debug': 'False', 'use_experimental_parser': 'False'}
+[0m11:37:18.969201 [info ] [MainThread]: dbt version: 1.10.13
+[0m11:37:18.970074 [info ] [MainThread]: python version: 3.12.3
+[0m11:37:18.970726 [info ] [MainThread]: python path: /home/helene/Documents/Snowflake et DBT/Brief/DBT Core/dbt-venv/bin/python3
+[0m11:37:18.971381 [info ] [MainThread]: os info: Linux-6.14.0-29-generic-x86_64-with-glibc2.39
+[0m11:37:18.979702 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'SNOWFLAKE_ACCOUNT'
+[0m11:37:18.981583 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.13975196, "process_in_blocks": "0", "process_kernel_time": 0.294114, "process_mem_max_rss": "98304", "process_out_blocks": "16", "process_user_time": 2.436663}
+[0m11:37:18.982546 [debug] [MainThread]: Command `dbt debug` failed at 11:37:18.982375 after 0.14 seconds
+[0m11:37:18.983291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76c62e01b170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76c62cf75700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76c62d12a420>]}
+[0m11:37:18.984052 [debug] [MainThread]: Flushing usage events
+[0m11:37:19.429324 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m11:37:40.904330 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce8d1a5d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce8e34a2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce8cef7380>]}
+
+
+============================== 11:37:40.910504 | a69ab692-a142-4f28-941b-7da76e74e40b ==============================
+[0m11:37:40.910504 [info ] [MainThread]: Running with dbt=1.10.13
+[0m11:37:40.911627 [debug] [MainThread]: running dbt with arguments {'profiles_dir': '/home/helene/.dbt', 'static_parser': 'True', 'quiet': 'False', 'target_path': 'None', 'empty': 'None', 'invocation_command': 'dbt debug', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'indirect_selection': 'eager', 'log_format': 'default', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'use_colors': 'True', 'partial_parse': 'True', 'log_cache_events': 'False', 'printer_width': '80', 'debug': 'False', 'no_print': 'None', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m11:37:40.936887 [info ] [MainThread]: dbt version: 1.10.13
+[0m11:37:40.937752 [info ] [MainThread]: python version: 3.12.3
+[0m11:37:40.938410 [info ] [MainThread]: python path: /home/helene/Documents/Snowflake et DBT/Brief/DBT Core/dbt-venv/bin/python3
+[0m11:37:40.941088 [info ] [MainThread]: os info: Linux-6.14.0-29-generic-x86_64-with-glibc2.39
+[0m11:37:40.951823 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'SNOWFLAKE_ACCOUNT'
+[0m11:37:40.953910 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.15566862, "process_in_blocks": "0", "process_kernel_time": 0.291767, "process_mem_max_rss": "98356", "process_out_blocks": "0", "process_user_time": 2.47355}
+[0m11:37:40.955020 [debug] [MainThread]: Command `dbt debug` failed at 11:37:40.954840 after 0.16 seconds
+[0m11:37:40.955886 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce8cd274d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce8cc49b80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fce8c60d250>]}
+[0m11:37:40.956761 [debug] [MainThread]: Flushing usage events
+[0m11:37:41.430982 [debug] [MainThread]: An error was encountered while trying to flush usage events
