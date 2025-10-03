@@ -56,7 +56,7 @@ Contenu du dossier :
 - Le projet est entièrement **scriptable** depuis VSCode et DBT Core.  
 - Prêt à être utilisé comme **template pour de futurs projets data** sur Snowflake.  
 - Les bonnes pratiques **sécurité et modularité** sont appliquées (variables sensibles, structure de dossiers, environnement virtuel, lineage actif).
-- Il est orchestré par github actions.
+- Il est orchestré par github actions (**Actions/Snowflake Orchestration**).
 
 ---
 
