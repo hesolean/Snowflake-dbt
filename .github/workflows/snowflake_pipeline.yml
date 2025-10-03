@@ -22,7 +22,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r Azure/requirements.txt
-          pip install -r DBT Core/requirements.txt
+          pip install -r DBT_Core/requirements.txt
 
       - name: 🚀 Run pipeline script
         env:
